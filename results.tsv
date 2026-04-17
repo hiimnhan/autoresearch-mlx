@@ -1,6 +1,1 @@
-commit	val_bpb	memory_gb	status	description
-ad715a7	1.809470	21.2	keep	baseline (DEPTH=4, MATRIX_LR=0.04, TOTAL_BATCH_SIZE=2^16)
-293b086	1.807064	21.2	keep	remove logit cap (15*tanh)
-8325639	1.693087	22.7	keep	SiLU activation instead of squared ReLU
-a23a59f	1.714684	22.7	discard	longer warmdown annealing (0.5->0.7)
-74d0995	1.623190	22.7	keep	lower matrix LR (0.04->0.02)
+commit	rho	mean_ep_reward	episodes	status	description
